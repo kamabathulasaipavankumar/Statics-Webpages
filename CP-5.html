@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding-Practices-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .bg-container{
+            max-width: 400px;
+            margin: auto;
+            padding-top:20px;
+            padding: 20px;;
+            border-radius: 25px;
+            background-image: url("https://img.freepik.com/free-photo/full-shot-woman-travel-concept_23-2149153259.jpg?t=st=1714137357~exp=1714140957~hmac=7d734b12e8c2114ec9e7dd67328a32521559c58dbf141b3cf1ca0f9bab747a19&w=360");
+            background-size: cover;
+            box-shadow:0px 3px 2px 2px rgba(0, 0, 0, 0.361);
+        }
+        .container{
+            text-align: center;
+            color: white;
+            padding-bottom:5px;            
+        }
+        .cards{
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+        .cards:hover{
+            transform: 2s ease-in-out;          
+            transform: scale(1.05);
+            box-shadow:  0px 2px  2px 2px grey
+        }
+        img{
+            height:110px;
+            width:100px;
+        }
+        p{
+            color: grey;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <h1>Favourite Places</h1> </div>
+
+            <div class="cards d-flex flex-row">
+                <div>
+                <h3 class="card-heading">Taj Mahal</h3>
+                <p>If there was just one symbol to represent all of India, it would be the Taj Mahal</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" alt="taj img" 
+                class="car1-img"/>
+            </div>
+             <div class="cards d-flex flex-row">  
+                <div>      
+                <h3 class="card-heading">Golden Temple</h3>
+                <p>Amritsar is world-famous for the beautiful and highly revered Golden Temple</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" 
+                class="car2-img"/>
+            </div>
+            <div class="cards d-flex flex-row">  
+                <div>      
+                <h3 class="card-heading">Mysore Palace</h3>
+                <p>The Mysore Palace is a historical palace and the royal residence at Mysore </p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png" 
+                class="car2-img"/>
+            </div>
+        </div>
+       </div>
+    </div>
+    
+</body>
+</html>

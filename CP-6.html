@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding-Practices-6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .bg-container{
+            max-width:600px;
+            margin: auto;
+           margin-top: 150px;
+        
+          
+        }
+        .top-section{
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+            background-size: cover;       
+            padding: 35px;
+        }
+        .heading{
+            color: white;
+            -webkit-text-stroke: 0.5px gold;
+            font-family: cursive ;
+            font-size: 36px;  
+             width: 200px;
+        }
+        .total-section{
+            height:600px;
+            text-align:center;
+            background-image: url("https://img.freepik.com/free-vector/decorative-happy-diwali-festival-background-with-text-space_1017-34090.jpg?w=740&t=st=1714223859~exp=1714224459~hmac=984e2764fcb39789b1563658b15c0da32f436e4e4a0a26c65573f347d842eb54");
+            background-size: cover;
+            padding:15px;
+        }
+        .cards{
+            text-align: center;
+            background-color:white;
+            width:140px;
+            height:200px;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 45px;
+            margin-top:10px;
+            cursor: pointer;
+        }
+        .cards:hover{
+            transform: 2s ease-in-out;          
+            transform: scale(1.05);
+            box-shadow:  0px 2px  2px 2px rgba(0, 0, 0, 0.541)
+        }
+        .item-heading{
+            font-size: small;
+            color:#616e7c ;
+        }
+        .image{
+            height: 95px;
+            width: 95px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="top-section">
+            <h3 class="heading">Celebrate Diwali With You Friends</h3>
+        </div>
+        <div class="total-section">
+            <div class="d-flex flex-row justify-content-center">
+            <div class="cards">
+                <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" alt="">
+                <h3 class="item-heading">Diwali Air Balloon</h3>
+                <h3>Rs:299/-</h3>
+            </div>
+            <div class="cards">
+                <img class="image"  src="images/card2-img.png">
+                <h3 class="item-heading">Fire Cracker</h3>
+                <h3>Rs:500/-</h3>
+            </div>
+            <div class="cards">
+                <img class="image"  src="images/card3.png">
+                <h3 class="item-heading">Rockets</h3>
+                <h3>Rs:450/-</h3>
+            </div> 
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="cards">
+                    <img class="image" src="images/card4.png">
+                    <h3 class="item-heading">Penclis</h3>
+                    <h3>Rs:299/-</h3>
+                </div>
+                <div class="cards">
+                    <img class="image"  src="images/card5.png">
+                    <h3 class="item-heading">Chakkars</h3>
+                    <h3>Rs:150/-</h3>
+                </div>
+                <div class="cards">
+                    <img class="image"  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png">
+                    <h3 class="item-heading">Spaklers</h3>
+                    <h3>Rs:150/-</h3>
+                </div>
+            </div>
+            <button class="btn btn-primary">Order Now</button>
+        </div>
+    </div>
+    
+</body>
+</html>
